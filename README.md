@@ -5,6 +5,21 @@ The goal is to create a **globally consistent, repeatable method** for construct
 
 This repository is part of the broader effort to develop a method that can later be applied **anywhere in the world**, starting with a test case in the **North Sea**.
 
+## Environment setup
+
+Create and activate the Conda environment from the provided `environment.yml` before running the notebooks or scripts:
+
+```bash
+conda env create -f environment.yml
+conda activate make-altimetry-baroclinic-water-levels
+```
+
+If you already have a suitable Conda environment, you can update it with:
+
+```bash
+conda env update -f environment.yml
+```
+
 
 ## Objectives
 
