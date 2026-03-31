@@ -1,0 +1,16 @@
+name: make-altimetry-baroclinic-water-levels
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xarray
+  - s3fs
+  - h5netcdf
+  - netcdf4
+  - numpy
+  - pandas
+  - dask
+  - jupyterlab
+  - notebook
+  - matplotlib
+  - scipy
